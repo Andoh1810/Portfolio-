@@ -1,0 +1,94 @@
+.navbar{
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 1px 25px aqua;
+}
+#nav {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    word-spacing: 25px;
+    top: 20px;
+
+}
+#nav li{
+    display: inline;
+    font-size: 20px;
+}
+#nav li:hover{
+    font-size: 25px;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+}
+.position{
+    color: black;
+}
+#bouton-nav{
+    display: none;
+}
+
+@media (max-width: 700px){
+    #nav li{
+        display: none;
+    } 
+    #bouton-nav{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: aliceblue;
+    color: orangered;
+    box-shadow: 2px 2px 15px black;
+    }
+    #nav {
+        text-align: right;
+        display: block;
+        position: absolute;
+        right: 45px;
+        top: 38px;
+        width: 250px;
+        height: 200px;
+        border: solid 1px rgba(255,255,255,0.4);
+        background-color: rgba(255,255,255,0.4);
+    }
+    #nav li{
+        display: block;
+        font-size: 15px;
+    }
+    #nav li:hover{
+        font-size: 20px;
+    }
+    #nav a{
+        color: black;
+    }
+}
+@media (max-width: 300px){
+    #nav{
+        width: 90%;
+    }
+}
+.activ{
+    height: 48px;
+    border-bottom: solid 10px yellow;
+    box-shadow: 1px 1px 15px yellow;
+    border-radius: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+.footer{
+    position: fixed;
+    background-color: rgb(40, 41, 41);
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    box-shadow: 0 1px 45px rgb(40, 41, 41);
+    color: aliceblue;
+    text-align: center;
+}
