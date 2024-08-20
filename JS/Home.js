@@ -1,15 +1,12 @@
 
-    function btnNav1(){
-    var menuVisible= 0;
-    const nav2=document.getElementById("nav")
-    if(menuVisible==0){
-        nav2.style.display="block"
-        menuVisible=1;
-    }
-    else{
-        nav2.style.display="none"
-        menuVisible=0;
-    }
+   function btnNav1(){
+        const nav2=document.getElementById("nav");
+        if(nav2.style.display=="none"){
+            nav2.style.display="block"
+        }
+        else{
+            nav2.style.display="none"
+        }
     }
 
 
@@ -18,6 +15,7 @@ function btn1(){
  txt.style.display="inline"
  var txt1=document.getElementById("traduction-en");
  txt1.style.display="none"
+ 
 }
 
 function btn2(){

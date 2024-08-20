@@ -45,6 +45,7 @@
     color: orangered;
     box-shadow: 2px 2px 15px black;
     }
+    
     #nav {
         text-align: right;
         display: block;
@@ -144,7 +145,6 @@ body{
 .images{
     text-align: center;
 }
-
 .images img{
     width: 35%;
     height: 30%;
@@ -160,7 +160,12 @@ body{
     text-align: center;
     margin-bottom: 50%;
 }
-
+.botom{
+    display: none;
+    width: 700px;
+    height: 300px;
+    border: solid ;
+}
 #log{
     width: 35%;
     height: 15%;
@@ -180,6 +185,9 @@ body{
         margin: 10px;
         padding: 15px;
     }
+    .texte{
+        font-size: 16px;
+    }
     #log{
         width: 70%;
         height: 25%;
@@ -189,5 +197,14 @@ body{
     .image{
         margin-bottom: 50%;
     }
-    
+}
+@media(max-height: 700px) {
+    .footer{
+        display: none;
+     }
+    }
+@media (max-width: 1200px) {
+    .footer{
+       display: none;
+    }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -9,25 +10,64 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./CSS/Contact.css">
 </head>
+
 <body>
 
-<nav class="navbar">
-  <button id="bouton-nav" onclick="btnNav1()">MENU</button>
+  <nav class="navbar">
+    <button id="bouton-nav" onclick="btnNav1()">MENU</button>
+
     <ul id="nav">
-      <li><a href="./Home.html" >HOME</a></li>
-      <li><a  href="./About.html">ABOUT</a></li>
-      <li><a href="./Realisation.html" >REALISATION</a></li>
-      <li><a href="./Serevice.html" >SERVICE</a></li>
-      <li  class="activ"><a href="#" >CONTACT</a></li>
+      <li><a href="./Home.html">HOME</a></li>
+      <li><a href="./About.html">ABOUT</a></li>
+      <li><a href="./Realisation.html">REALISATION</a></li>
+      <li><a href="./Serevice.html">SERVICE</a></li>
+      <li class="activ"><a href="#">CONTACT</a></li>
     </ul>
-</nav>
+  </nav>
+
+  <div class="contact">
+
+    <div id="fr">
+      <button class="bouton1" onclick="btn1()">Anglais</button>
+      <h1>ME CONTACTER</h1>
+      <ul>
+        <p><b>Tél: +237 698735802</b></p>
+        <p><b>email: <a href="francois.andoh@facsciences-uy1.cm">francois.andoh@facsciences-uy1.cm</a></b></p>
+      </ul>
+    </div>
+    <div id="en">
+      <button class="bouton2" onclick="btn2()">Français</button>
+      <h1>CONTACT ME</h1>
+      <ul>
+        <p><b>Phone: +237 698735802</b></p>
+        <p><b>email: <a href="francois.andoh@facsciences-uy1.cm">francois.andoh@facsciences-uy1.cm</a></b></p>
+      </ul>
+    </div>
+    <div class="formulaire">
+      <form action="https://formspree.io/f/xovandor" method="POST">
+        <input type="text" placeholder="Votre nom"><br><br>
+        <input type="text" placeholder="Votre prenom"><br><br>
+        <input type="email" name="email" placeholder="Votre adresse email"><br><br>
+        <select name="pays">
+          <option value=" ">Choissez un pays</option>
+          <option value="Cameroun">Cameroun</option>
+          <option value="Algérire">Algérie</option>
+          
+          <option value="Etats-unis">Etats-unis</option>
+          <option value=" ">Autre</option>
+        </select><br><br>
+        <textarea name="message" cols="30" rows="10" placeholder="Entrez votre message"></textarea>
+        <button type="submit" class="btnEnv">Envoyer</button>
+      </form>
+    </div>
+  </div>
 
 
-
-<footer class="footer">
-    <p>©copyright <b style="color: orangered;">Andoh.</b>  All Rights Reserved</p>
+  <footer class="footer">
+    <p>©copyright <b style="color: orangered;">Andoh.</b> All Rights Reserved</p>
     <p>Designed by Andoh info-tech</p>
-</footer>
-<script src="./JS/Contact.js"></script>
+  </footer>
+  <script src="./JS/Contact.js"></script>
 </body>
+
 </html>

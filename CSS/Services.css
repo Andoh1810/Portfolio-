@@ -4,6 +4,7 @@
     width: 100%;
     height: 70px;
     box-shadow: 0 1px 25px aqua;
+    z-index: 2;
 }
 #nav {
     position: relative;
@@ -44,6 +45,7 @@
     color: orangered;
     box-shadow: 2px 2px 15px black;
     }
+    
     #nav {
         text-align: right;
         display: block;
@@ -54,6 +56,7 @@
         height: 200px;
         border: solid 1px rgba(255,255,255,0.4);
         background-color: rgba(255,255,255,0.4);
+        z-index: 2;
     }
     #nav li{
         display: block;
@@ -91,4 +94,104 @@ body{
     box-shadow: 0 1px 45px rgb(40, 41, 41);
     color: aliceblue;
     text-align: center;
+    
 }
+/*----------------------------------------------------------------------*/
+
+.service{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.services{
+    position: relative;
+    top: 100px;
+    left: 24%;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    height: 200px;
+    color: black;
+    border: solid 1px rgb(17, 66, 230);
+    background-color: rgba(255, 255, 255,0.8);
+    margin: 20px;
+    border-radius: 15px;
+}
+.services h2{
+    color: blue;
+}
+.services h2:hover{
+    color: rgb(255, 255, 255);
+}
+.services:hover{
+    color: white;
+    border: solid 1px rgb(248, 248, 250);
+    background-color: rgba(21, 79, 202,0.4);
+    box-shadow: 1px 1px 15px white;
+}
+@media(max-width: 1300px){
+    .services{
+        width: 70%;
+        left: 10%;
+        font-size: 90%;
+        height: 100%;
+    }
+    .services h2{
+        font-size: 19px;
+    }
+@media(max-width: 230px){
+    .services h2{
+        font-size: 13px;
+    }
+}
+}
+#en{
+    display: none;
+}
+#en1{
+    display: none;
+}
+#en3{
+    display: none;
+}
+#en4{
+    display: none;
+}
+#en5{
+    display: none;
+}
+.bouton1{
+    border: 1px solid rgb(25, 64, 122);
+    background-color: rgb(25, 64, 122) ;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px white;
+
+}
+.bouton1:hover{
+    border: 1px solid white;
+    background-color: white ;
+    color: rgb(25, 64, 122);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(25, 64, 122);
+}
+.bouton2{
+    border: 1px solid rgb(25, 64, 122);
+    background-color: rgb(25, 64, 122) ;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px white;
+}
+.bouton2:hover{
+    border: 1px solid white;
+    background-color: white ;
+    color: rgb(25, 64, 122);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(25, 64, 122);
+}
+@media(max-height: 700px) {
+    .footer{
+        display: none;
+     }
+    }
