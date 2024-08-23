@@ -76,8 +76,8 @@
 }
 .activ{
     height: 48px;
-    border-bottom: solid 10px yellow;
-    box-shadow: 1px 1px 15px yellow;
+    border-bottom: solid 10px white;
+    box-shadow: 9px 9px 15px rgb(255, 255, 254);
     border-radius: 10px;
 }
 
@@ -118,9 +118,10 @@ body{
     border: solid 1px white;
     box-shadow: 1px 1px 15px white;
     border-radius: 15px;
+    font-size: 16px;
     top: 200px;
     left: 43%;
-    height: 60%;
+    height: 70%;
     padding: 20px;
 }
 #en{
@@ -130,9 +131,10 @@ body{
     border: solid 1px blue;
     box-shadow: 1px 1px 15px blue;
     border-radius: 15px;
+    font-size: 16px;
     top: 200px;
     left: 43%;
-    height: 60%;
+    height: 70%;
     padding: 20px;
 }
 @media (max-width: 1580px){

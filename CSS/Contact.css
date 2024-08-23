@@ -75,8 +75,8 @@
 }
 .activ{
     height: 48px;
-    border-bottom: solid 10px yellow;
-    box-shadow: 1px 1px 15px yellow;
+    border-bottom: solid 10px white;
+    box-shadow: 9px 9px 15px rgb(255, 255, 254);
     border-radius: 10px;
 }
 
@@ -133,12 +133,10 @@ input,textarea,select{
 }
 @media(max-width: 1370px ){
     .contact{
-        padding-left: 1%;
-        width: 60%;
+        width: 70%;
+        left: 20%;
         font-size: 13px;
-        left: 15%;
-        top: 100px;
-        margin-bottom: 30%;
+        top: 120px;
     }
     h1{
         font-size: medium;
@@ -234,7 +232,7 @@ select{
     border-radius: 10px;
     box-shadow: 1px 1px 15px rgb(25, 64, 122);
 }
-@media(max-height: 700px) {
+@media(max-height: 786px) {
     .footer{
         display: none;
      }

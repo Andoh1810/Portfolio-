@@ -3,6 +3,8 @@ function btn1(){
     txt.style.display="inline-block"
     var txt1=document.getElementById("en1");
     txt1.style.display="inline-block"
+    var txt2=document.getElementById("en2");
+    txt2.style.display="inline-block"
     var txt3=document.getElementById("en3");
     txt3.style.display="inline-block"
     var txt4=document.getElementById("en4");
@@ -15,6 +17,8 @@ function btn1(){
     btn.style.display="none"
     var btn1=document.getElementById("fr1");
     btn1.style.display="none"
+    var btn2=document.getElementById("fr2");
+    btn2.style.display="none"
     var btn3=document.getElementById("fr3");
     btn3.style.display="none"
     var btn4=document.getElementById("fr4");
@@ -29,6 +33,8 @@ function btn1(){
     txt.style.display="none"
     var txt1=document.getElementById("en1");
     txt1.style.display="none"
+    var txt2=document.getElementById("en2");
+    txt2.style.display="none"
     var txt3=document.getElementById("en3");
     txt3.style.display="none"
     var txt4=document.getElementById("en4");
@@ -41,6 +47,8 @@ function btn1(){
     btn.style.display="inline-block"
     var btn1=document.getElementById("fr1");
     btn1.style.display="inline-block"
+    var btn2=document.getElementById("fr2");
+    btn2.style.display="inline-block"
     var btn3=document.getElementById("fr3");
     btn3.style.display="inline-block"
     var btn4=document.getElementById("fr4");

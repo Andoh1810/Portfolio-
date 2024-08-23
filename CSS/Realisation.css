@@ -76,8 +76,8 @@
 }
 .activ{
     height: 48px;
-    border-bottom: solid 10px yellow;
-    box-shadow: 1px 1px 15px yellow;
+    border-bottom: solid 10px white;
+    box-shadow: 9px 9px 15px rgb(255, 255, 254);
     border-radius: 10px;
 }
 

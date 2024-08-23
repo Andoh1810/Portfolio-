@@ -76,8 +76,8 @@
 }
 .activ{
     height: 48px;
-    border-bottom: solid 10px yellow;
-    box-shadow: 1px 1px 15px yellow;
+    border-bottom: solid 10px white;
+    box-shadow: 9px 9px 15px rgb(255, 255, 254);
     border-radius: 10px;
 }
 
@@ -152,6 +152,9 @@ body{
 #en1{
     display: none;
 }
+#en2{
+    display: none;
+}
 #en3{
     display: none;
 }
@@ -190,7 +193,7 @@ body{
     border-radius: 10px;
     box-shadow: 1px 1px 15px rgb(25, 64, 122);
 }
-@media(max-height: 700px) {
+@media(max-height: 890px) {
     .footer{
         display: none;
      }
