@@ -11,7 +11,7 @@
     list-style: none;
     text-align: center;
     word-spacing: 25px;
-    top: 20px;
+    top: 25%;
 
 }
 #nav li{
@@ -31,11 +31,20 @@
 #bouton-nav{
     display: none;
 }
-
+.marquee{
+    display: none;
+}
 @media (max-width: 700px){
     #nav li{
         display: none;
     } 
+    .marquee{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        width: 130px;
+    }
     #bouton-nav{
     display: block;
     position: absolute;
@@ -101,9 +110,9 @@ body{
 
 .img{
     display: inline-block;
-    position: relative;
+    position: fixed;
     left: 10%;
-    top: 200px;
+    top: 130px;
     width: 500px;
     height: 500px;
     border: solid 1px;
@@ -113,29 +122,34 @@ body{
 }
 
 #fr{
-    position: absolute;
+    position: relative;
     color: white;
     border: solid 1px white;
     box-shadow: 1px 1px 15px white;
     border-radius: 15px;
     font-size: 16px;
-    top: 200px;
     left: 43%;
-    height: 70%;
+    top: 130px;
+    width: 800px;
+    height: 100%;
     padding: 20px;
+    margin-bottom: 300px;
+
 }
 #en{
     display:none;
-    position: absolute;
+    position: relative;
     color: rgb(255, 255, 255);
     border: solid 1px blue;
     box-shadow: 1px 1px 15px blue;
     border-radius: 15px;
     font-size: 16px;
-    top: 200px;
     left: 43%;
-    height: 70%;
+    width: 800px;
+    top: 130px;
+    height: 100%;
     padding: 20px;
+    margin-bottom: 300px;
 }
 @media (max-width: 1580px){
 
@@ -145,6 +159,7 @@ body{
         left: 10%;
         top: 100px;
         width: 75%;
+        height: 130%;
         margin-bottom: 300px;
     }
     #en{
@@ -153,9 +168,12 @@ body{
         left: 10%;
         top: 100px;
         width: 75%;
+        height: 130%;
         margin-bottom: 300px;
+        
     }
     .img{
+        position: relative;
         top: 80px;
         height: 40%;
         width: 40%;
@@ -190,4 +208,43 @@ body{
     color: rgb(25, 64, 122);
     border-radius: 10px;
     box-shadow: 1px 1px 15px rgb(25, 64, 122);
+}
+.li35{
+    background-color: aqua;
+    color: black;
+    border: solid white;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    box-shadow: 1px 1px 8px white;
+    width: 35%;
+}
+.li40{
+    background-color: aqua;
+    color: black;
+    border: solid white;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    box-shadow: 1px 1px 8px white;
+    width: 40%;
+}
+.li65{
+    background-color: aqua;
+    color: black;
+    border: solid white;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    box-shadow: 1px 1px 8px white;
+    width: 65%;
+}
+.li75{
+    background-color: aqua;
+    color: black;
+    border: solid white;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    box-shadow: 1px 1px 8px white;
+    width: 75%;
+}
+.comp ul{
+    text-decoration: none;
 }

@@ -11,7 +11,7 @@
     list-style: none;
     text-align: center;
     word-spacing: 25px;
-    top: 20px;
+    top: 25%;
 
 }
 #nav li{
@@ -32,10 +32,20 @@
     display: none;
 }
 
+.marquee{
+    display: none;
+}
 @media (max-width: 700px){
     #nav li{
         display: none;
     } 
+    .marquee{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        width: 130px;
+    }
     #bouton-nav{
     display: block;
     position: absolute;
@@ -194,6 +204,7 @@ body{
         margin: 10px;
         padding: 15px;
     }
+    
     .image{
         margin-bottom: 50%;
     }

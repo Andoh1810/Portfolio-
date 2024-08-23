@@ -11,7 +11,7 @@
     list-style: none;
     text-align: center;
     word-spacing: 25px;
-    top: 20px;
+    top: 25%;
 
 }
 #nav li{
@@ -31,11 +31,20 @@
 #bouton-nav{
     display: none;
 }
-
+.marquee{
+    display: none;
+}
 @media (max-width: 700px){
     #nav li{
         display: none;
     } 
+    .marquee{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        width: 130px;
+    }
     #bouton-nav{
     display: block;
     position: absolute;
@@ -111,6 +120,8 @@ body{
     text-align: center;
     width: 50%;
     font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 200px;
     color: black;
     border: solid 1px rgb(17, 66, 230);
@@ -193,7 +204,7 @@ body{
     border-radius: 10px;
     box-shadow: 1px 1px 15px rgb(25, 64, 122);
 }
-@media(max-height: 890px) {
+@media(max-height: 1000px) {
     .footer{
         display: none;
      }
